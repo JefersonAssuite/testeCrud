@@ -1,0 +1,90 @@
+*{
+    font-family: 'Roboto';
+}
+#h1-home {
+    text-align: center;
+}
+header{
+    background-color: #fff;
+    border-bottom: 1px solid  #ccc;
+}
+
+.btn-primary{
+    background-color: #F2A340;
+    border:2px solid #C28008;
+}
+
+#enviar{
+    background-color: #1fe73a;
+    border:2px solid #246d34c0;
+}
+
+#enviar:hover{
+    background-color: #33e04a;
+    border:2px solid #093813;
+}
+
+
+.btn-primary:hover{
+    background-color: #C28008;
+    border-color: #C28008;
+}
+
+
+
+#container-form {
+    margin-top: 20px;
+    text-align: center;
+    
+    
+}
+
+/*Barra de Navegação*/
+#navbar img{
+
+    width: 40px;
+}
+
+#navbar{
+    justify-content: space-between;
+    background-color: #FFF;
+    padding: 5px 0;
+}
+
+#navbar a {
+    font-size:14px;
+    color:#757575;
+}
+
+#navbar a:hover{
+    color: #F2A340;
+}
+
+/*DashBoard*/
+.dashboard-title-container{
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.dashboard-frutas-container form{
+    display: inline-block;
+}
+
+.dashboard-frutas-container th{
+    width: 25%;
+}
+
+footer{
+        text-align: center;
+        background-color: #353E48;
+        color: #FFF;
+        padding: 30px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+}
+
+footer p{
+    margin-bottom: 0;
+}
